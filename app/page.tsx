@@ -1,3 +1,5 @@
+import { redirect } from "next/navigation";
+
 export default function page() {
-   return <main className="">login</main>;
+   redirect("/dash");
 }
